@@ -38,7 +38,7 @@ SECRET_KEY = 'django-insecure-x#oir%j8@d_@1d_6h9-a*z220%sqan2m0sq66$5$@3_k8p=@#v
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["doctor-connect-backend.onrender.com"]
 
 
 # Application definition
@@ -182,6 +182,6 @@ EMAIL_SSL_CERTFILE = None
 EMAIL_SSL_KEYFILE = None
 
 
-CELERY_BROKER_URL = "rediss://QgCiW47kW3TTIQUZ61EyLuPyAAALPVSl@redis-13786.c90.us-east-1-3.ec2.redns.redis-cloud.com:13786/0"
+# CELERY_BROKER_URL = "rediss://QgCiW47kW3TTIQUZ61EyLuPyAAALPVSl@redis-13786.c90.us-east-1-3.ec2.redns.redis-cloud.com:13786/0"
 
-CELERY_APP = 'pateints.celery'
+# CELERY_APP = 'pateints.celery'
