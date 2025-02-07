@@ -1,0 +1,24 @@
+# Virtual environment
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Django secrets
+.env
+*.sqlite3
+db.sqlite3
+
+# Redis & Celery-related files
+celerybeat-schedule
+celerybeat.pid
+
+# Logs and migrations
+*.log
+migrations/
+
+# VSCode & MacOS files
+.vscode/
+.DS_Store
+doctor/
