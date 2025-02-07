@@ -182,5 +182,6 @@ EMAIL_SSL_CERTFILE = None
 EMAIL_SSL_KEYFILE = None
 
 
-CELERY_BROKER_URL = 'redis://localhost:6379/0'  # if you're using Redis
+CELERY_BROKER_URL = "rediss://QgCiW47kW3TTIQUZ61EyLuPyAAALPVSl@redis-13786.c90.us-east-1-3.ec2.redns.redis-cloud.com:13786/0"
+
 CELERY_APP = 'pateints.celery'
